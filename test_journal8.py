@@ -1,3 +1,5 @@
+
+
 from journal8 import employee_details
 
 def test_employee_details():
@@ -8,4 +10,5 @@ def test_employee_details():
         "Salary: 56000"
     )
 
-    assert employee_details("shreesai", "E0318", "HR", 56000) == expected_output
+    assert employee_details("Shreesai", "E0318", "HR", 56000) == expected_output
+     
